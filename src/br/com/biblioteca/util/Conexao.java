@@ -11,9 +11,9 @@ public final class Conexao {
 
   // Altere somente estas tres constantes para o seu ambiente MySQL.
   private static final String URL =
-    "jdbc:mysql://localhost:3306/biblioteca?useUnicode=true&characterEncoding=UTF-8";
+    "jdbc:mysql://localhost:3306/biblioteca?useUnicode=true&characterEncoding=UTF-8&useSSL=false";
   private static final String USUARIO = "root";
-  private static final String SENHA = "";
+  private static final String SENHA = "Biblioteca@2026";
 
   private Conexao() {}
 
